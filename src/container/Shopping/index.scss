@@ -1,0 +1,209 @@
+.Shopping{
+	height: 100%;
+	background: #f2f2f2;
+	.mint-navbar .mint-tab-item{
+		font-size: 30px;
+	}
+	.mint-tab-item-label{
+		font-size: 24px;
+	}
+	.mint-checkbox-core{
+		width: 40px;
+		height: 40px;
+	}
+	.mint-checkbox-core::after{
+		top: -3px;
+		left: 14px;
+		width: 13px;
+		height: 30px;
+	}
+	.mint-header{
+		height: 80px;
+		font-size: 28px;
+	}
+	.mintui-more, .mintui-back{
+		font-size: 28px;
+	}
+
+
+	ul{
+		margin-top: 20px;
+	}
+	li{
+		padding:30px 30px 30px 0;
+		background: #fff;
+		margin-bottom: 10px;
+		label{
+			width: 70px;
+			text-align: center;
+			line-height: 160px;
+		}
+		.right{
+			width: 650px;
+			img{
+				width: 160px;
+				height: 160px;
+				margin-right: 20px;
+			}
+			small{
+				font-size: 24px;
+				color: #999;
+			}
+			h3{
+				font-size: 32px;
+				color: #333;
+				word-break: break-all;
+			    white-space: nowrap;
+			    max-width: 465px;
+			    overflow: hidden;
+			    text-overflow:ellipsis;
+			}
+			span{
+				font-size: 24px;
+				color: #333;
+			}
+			p{
+				width:430px;
+				font-size: 30px;
+				color: #ff6c00;
+				margin-top: 60px;
+				span{
+					font-size: 24px;
+					color: #999;
+					float: right;
+				}
+				input{
+					padding-bottom: 10px;
+					text-align: center;
+					width: 300px;
+					border-bottom: 1px solid #ddd;
+				}
+				small{
+					text-decoration: line-through;
+				}
+				.count{
+					width: 50px;
+					height: 50px;
+					font-size: 30px;
+					border: 1px solid #ddd;
+					border-radius: 50%;
+					text-align: center;
+					line-height: 50px;
+				}
+			}
+			p.bujinqi{
+		    margin-left: 30px;
+			}
+		}
+		#add{
+			float:left;
+			font-size: 100px;
+			color: #999;
+			text-align: center;
+			line-height: 145px;
+			width: 160px;
+			height: 160px;
+			border: 1px dashed #999;
+			margin-right: 20px;
+			margin-left: 70px;
+		}
+		.addText{
+			font-size: 32px;
+			line-height: 160px;
+			color: #dcdcdc;
+			float:left;
+		}
+	}
+	.line {
+		text-align: center;
+		margin: 30px 0 20px;
+		span{
+			font-size: 32px;
+			color: #999;
+		}
+		span:before,span:after{
+			display: inline-block;
+			content: '';
+			width: 100px;
+			height: 1px;
+			background: #999;
+			margin-bottom: 8px;
+			margin-right: 20px;
+		}
+		span:after{
+			margin-left: 20px;
+		}
+	}
+	.recommend{
+		overflow: hidden;
+		margin-right: -20px;
+		margin-bottom: 100px;
+		background: #f2f2f2;
+		li{
+			float: left;
+			margin-right: 20px;
+			padding:0;
+			div{
+				width:365px;
+				height: 465px;
+        background-size:cover !important;
+        background-position:center !important;
+        background-repeat:no-repeat !important;
+			}
+		}
+
+	}
+	.bottom{
+		line-height: 100px;
+		border-top: 1px solid #ddd;
+		background: #fff;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 100px;
+    	overflow: hidden;
+		label{
+			.mint-checkbox-core{
+				position: relative;
+				top: -5px;
+				margin-right: 10px;
+			}
+			.all{
+				font-size: 30px;
+				color: #999;
+			}
+		}
+		.right{
+			font-size: 30px;
+			.total{
+				margin-left: 100px;
+				color: #333;
+			}
+			.btn{
+				position: absolute;
+				right: 0;
+				width: 200px;
+				display: inline-block;
+				background: #26a2ff;
+				text-align: center;
+				color: #fff;
+			}
+			.btn_right{
+				position: absolute;
+				right: 0;
+				span{
+					width: 200px;
+					float: left;
+					background: #26a2ff;
+					text-align: center;
+					color: #fff;
+					height:100px;
+				}
+				span.del{
+					background: #e32132;
+
+				}
+			}
+		}
+	}
+}

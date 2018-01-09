@@ -1,0 +1,92 @@
+.my-game-tab-page{
+  background: #f8f8f8;
+  .tab-nav{
+    background: #fff;
+    overflow: hidden;
+
+    div{
+      width: 50%;
+      line-height: 80px;
+      color: #333;
+      text-align: center;
+      float: left;
+
+    }
+    .cur{
+      color: #1462e5;
+      border-bottom: 1px solid #1462e5;
+
+    }
+  }
+  .play-list-warp{
+    padding-top: 30px;
+  }
+  .play-list{
+    li{
+      background: #fff;
+      margin-bottom: 10px;
+      .top{
+        padding: 0 30px;
+      }
+      .des{
+        position: relative;
+        padding-left: 20px;
+        float: left;
+        height: 100%;
+        .name{
+          line-height: 30px;
+          height: 30px;
+          font-size: 30px;
+          margin-bottom: 16px;
+          span{
+            font-size: 24px;
+            color: #999;
+          }
+        }
+      }
+      .p2{
+        span{
+          padding-right: 20px;
+          font-size: 24px;
+        }
+      }
+      .p3{
+        position: absolute;
+        left: 20px;
+        bottom:0;
+        color: #ff6c00;
+        font-size: 28px;
+      }
+      .top-body{
+        height: 218px;
+        padding: 30px 0;
+        border-bottom: 1px solid #eeeeee;
+        .pic-box{
+          width: 158px;
+          height: 158px;
+          border: 1px solid #eee;
+          float: left;
+          img{width: 100%;height: 100%;}
+        }
+      }
+      .bottom{
+        height: 90px;
+        padding: 17px 30px;
+        .pay-btn{
+          float: left;
+          margin-left: 30px;
+          width: 150px;
+          text-align: center;
+          line-height: 56px;
+          height: 56px;
+          border: 1px solid #bfbfbf;
+          border-radius: 28px;
+        }
+        .pay-btn.disabled{
+          border-color: #ccc;
+          color: #ccc;
+        }
+      }
+    }
+  }
+}

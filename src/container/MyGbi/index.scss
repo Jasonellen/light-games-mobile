@@ -1,0 +1,53 @@
+.header {
+    height: 280px;
+    background: #fff;
+    padding-top: 36px;
+    .headImg {
+        margin: 0 auto;
+        width: 190px;
+        height: 155px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+    p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 36px;
+        color: #333;
+    }
+}
+
+.tisp {
+    padding-left: 30px;
+    font-size: 26px;
+  line-height: 40px;
+    color: #999;
+    margin: 20px 0 10px;
+}
+
+.list {
+    li {
+        margin-bottom: 2px;
+        height: 120px;
+        background: #fff;
+      .col-999 {
+        color: #999;
+      }
+      .icon {
+        background: url(../../assets/arrowRight.svg) no-repeat;
+        margin-right: 10px;
+        margin-top: 45px;
+        width: 60px;
+        height: 30px;
+        background-size: 100% 100%;
+      }
+      p {
+        line-height: 120px;
+        font-size: 30px;
+        color: #333;
+        margin-left: 30px;
+      }
+    }
+}

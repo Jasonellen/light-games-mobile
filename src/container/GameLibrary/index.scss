@@ -1,0 +1,146 @@
+.Game-page {
+    background-color: #fff;
+    .banner {
+        width: 100%;
+        height: 420px;
+        overflow: hidden;
+    }
+  .not-good{
+    line-height: 60px;
+    text-align: center;
+  }
+    .all_game {
+        margin: 20px 30px 28px 20px;
+        overflow: hidden;
+        .left {
+            float: left;
+            width: 180px;
+            height: 70px;
+            border: 1px solid #bfbfbf;
+            border-radius: 35px;
+            text-align: center;
+            line-height: 70px;
+            font-size: 30px;
+            color: #666;
+            img {
+                margin-left: 12px;
+            }
+        }
+        .right {
+            float: right;
+            position: relative;
+            top: 20px;
+            span {
+                line-height: 1;
+                font-size: 28px;
+                padding: 6px 10px;
+                color: #666;
+            }
+            .has_border {
+                border-right: 1px solid #bfbfbf;
+                border-left: 1px solid #bfbfbf;
+            }
+        }
+    }
+    ul {
+        overflow: hidden;
+        margin-right: -21px;
+        background: #f7f7f7;
+        li {
+            width: 365px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            &>div {
+                width: 100%;
+                margin-bottom: 20px;
+                &>.head {
+                    width: 100%;
+                }
+            }
+            .head {
+                width: 100%;
+            }
+            .desc {
+                padding: 10px 16px 20px 20px;
+                background: #fff;
+                overflow: hidden;
+                .top {
+                    height: 34px;
+                    .left {
+                        float: left;
+                        font-size: 30px;
+                        img {
+                            width: 34px;
+                            height: 34px;
+                            margin-right: 10px;
+                            position: relative;
+                            top: -3px;
+                        }
+                    }
+                    .right {
+                        float: right;
+                        span {
+                            margin-left: 10px;
+                            display: inline-block;
+                            width: 34px;
+                            height: 34px;
+                            border-radius: 50%;
+                            text-align: center;
+                            font-size: 24px;
+                            color: #999;
+                            border: 1px solid #b2b2b2;
+                        }
+                    }
+                }
+                .bottom {
+                    margin-top: 12px;
+                    .left {
+                        position: relative;
+                        float: left;
+                        img {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 148px;
+                        }
+                    }
+                    .right {
+                        float: right;
+                        font-size: 24px;
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.inputBox {
+    width: 550px;
+    height: 70px;
+    border: 1px solid #bfbfbf;
+    border-radius: 40px;
+    margin: 30px 0 30px 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+    p {
+        display: block;
+        font-size: 30px;
+        color: #333;
+        line-height: 70px;
+        padding-right: 14px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 480px;
+
+    }
+    i {
+        display: block;
+        height: 70px;
+        width: 30px;
+        background: url(../../assets/arrowRight.svg) no-repeat left center;
+        background-size: 25px 30px;
+    }
+}

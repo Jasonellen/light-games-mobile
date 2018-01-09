@@ -1,0 +1,110 @@
+.content {
+    background: #fff;
+    margin-top: 6px;
+    padding-bottom: 30px;
+    .p1 {
+        margin-left: 46px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        font-size: 24px;
+        color: #666;
+    }
+    .p2 {
+        margin-bottom: 39px;
+        margin-left: 35px;
+        width: 678px;
+        height: 120px;
+        background: #f7f7f7;
+        border: 1px solid #d2d2d2;
+        font-size: 26px;
+        color: #999;
+        padding: 30px 35px 0px 15px;
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            line-height: 35px;
+        }
+    }
+    .p3 {
+        margin-left: 46px;
+        font-size: 24px;
+        color: #666;
+    }
+    ul {
+        margin-left: 46px;
+        li {
+            float: left;
+            width: 300px;
+            margin-top: 25px;
+            label {
+                float: left;
+                margin-left: 20px;
+                font-size: 24px;
+                color: #333;
+                line-height: 30px;
+            }
+        }
+        .last {
+            width: 100%;
+            textarea {
+                margin-left: 28px;
+                height: 179px;
+                width: 610px;
+                border: 1px solid #d2d2d2;
+                padding: 22px 26px;
+                color: #333;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.sub {
+    margin-top: 46px;
+    height: 58px;
+    width: 142px;
+    border: 2px solid #145fdc;
+    font-size: 24px;
+    color: #145fdc;
+    display: block;
+    margin: 46px auto 0;
+    border-radius: 10px;
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #fff;
+    border: 4px solid #a0a0a0;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    input {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: 0;
+    }
+}
+
+.select {
+    background: url(../../assets/selected.svg) no-repeat center center, #145fdc;
+    background-size: 40px 40px;
+}
+
+.logo {
+    position: fixed;
+    width: 88px;
+    height: 50px;
+    bottom: 38px;
+    left: 50%;
+    margin-left: -44px;
+}

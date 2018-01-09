@@ -1,0 +1,131 @@
+.div {
+    margin-bottom: 1px;
+    background: #fff;
+    height: 110px;
+    position:relative;
+    p:first-child {
+        margin: 0 56px 0 50px;
+        font-size: 30px;
+        color: #999;
+        line-height: 110px;
+    }
+  .img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 26px;
+    overflow: hidden;
+    position: relative;
+    background-size:cover !important;
+    background-position:center  !important;
+    background-repeat:no-repeat !important;
+    /*div {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }*/
+  }
+
+    .back {
+        width: 14px;
+        height: 100%;
+        background: url(../../assets/arrowRight.svg) no-repeat left center;
+        background-size: 14px 30px;
+        margin-right: 35px;
+    }
+    .p2 {
+        font-size: 30px;
+        line-height: 110px;
+    }
+    .imgUpload{
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        height: 150px;
+        width: 100%;
+    }
+    .label{
+        font-size: 30px;
+        color: #999;
+        padding-left: 50px;
+        input{
+            line-height: 110px;
+        }
+        span{
+            position:absolute;
+        }
+        textarea{
+            margin-left:90px;
+        }
+    }
+
+
+}
+.mint-radiolist-title{
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+.mint-cell-wrapper{
+    font-size: 30px !important;
+}
+
+// .mint-datetime-action{
+//     font-size:30px !important;
+// }
+// .picker-item{
+//     height: 72px !important;
+//     line-height: 72px !important;
+//     font-size: 30px !important;
+// }
+// .picker-center-highlight{
+//     height: 72px !important;
+//     // margin-top: -18px !important;
+// }
+.mint-radiolist-label{
+  padding-left: 40px;
+}
+
+.div2 {
+    padding-right: 50px;
+    margin-bottom: 2px;
+    background: #fff;
+    p {
+        margin: 40px 56px 0 50px;
+        font-size: 30px;
+        color: #999;
+    }
+    .p2 {
+        line-height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        box-sizing: content-box;
+    }
+}
+
+.h-150 {
+    height: 150px;
+    p {
+        line-height: 150px;
+    }
+}
+
+.out {
+    margin-top: 18px;
+    height: 100px;
+    background: #fff;
+    font-size: 24px;
+    color: #db1212;
+    width: 100%;
+
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+

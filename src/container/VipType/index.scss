@@ -1,0 +1,80 @@
+.vip-type-page{
+  background: #f7f7f7;
+  height: 100vh;
+  padding-bottom: 98px;
+  overflow-y: auto;
+  .vip-top{
+    background: #f7f7f7;
+    height: 370px;
+    padding-top: 30px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .vip-swipe{
+    width: 480px;
+    margin: 0 auto;
+    height: 300px;
+    img{width: 480px;height: 300px;}
+
+    .swiper-container{
+      div{
+        float: left;
+      }
+    }
+
+
+  }
+
+  .vip-pic-box{
+    height: 300px;
+  }
+  .vip-info-list{
+    background: #fff;
+    li{
+      height: 120px;
+      line-height: 120px;
+      padding: 0 46px 0 55px;
+      font-size: 24px;
+      border:1px solid #f7f7f7;
+      .fl{color: #666;}
+      .fr{color: #333;}
+    }
+  }
+  .vip-day{
+    height: 108px;
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 30px;
+    color: #999;
+    text-align: center;
+  }
+  .foot-box{
+    position: fixed;
+    font-size: 28px;
+    left: 0;
+    bottom: 0;
+    height: 98px;
+    background: #1263e9;
+    width: 100%;
+    color: #fff;
+    padding: 0 42px 0 62px;
+    line-height: 98px;
+  }
+  .picker{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .picker-toolbar{
+    position:absolute;
+    width:100%;
+    height:60px;
+    z-index: 1;
+    span{
+      display:inline-block;
+      padding:20px;
+    }
+  }
+}

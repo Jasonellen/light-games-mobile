@@ -1,0 +1,45 @@
+.my-head{
+  height: 89px;
+  position: fixed;
+  background: #146ef5;
+  width: 100%;
+  left: 0;
+  top: 0;
+  color: #fff;
+  z-index: 100;
+  a{color: #fff;}
+  .head-left{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    .back-icon{
+      width: 40px;
+      height: 60px;
+    }
+    .back{
+      width:50px;
+    }
+  }
+  .head-title{
+    line-height: 88px;
+    height: 88px;
+    text-align: center;
+    color: #fff;
+  }
+  .head-right{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    img{
+      width:52px;
+    }
+  }
+}
+.mintui-more, .mintui-back{
+	font-size: 28px;
+}
+.mint-toast-text{
+	font-size:28px;
+}

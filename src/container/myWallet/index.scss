@@ -1,0 +1,132 @@
+.myWalet{
+    .p1 {
+        padding-left: 30px;
+        font-size: 30px;
+        line-height: 130px;
+        color: #999;
+    }
+    .p2 {
+        font-size: 100px;
+        color: #1263e9;
+        text-align: center;
+        padding-bottom: 58px;
+        border-bottom: 2px solid #f7f7f7;
+        font {
+            font-size: 30px;
+        }
+    }
+    .mx-right a{color: #fff;}
+    .text {
+        padding: 25px 0;
+        p {
+            text-align: center;
+            font-size: 30px;
+            color: #666;
+            line-height: 60px;
+            height: 60px;
+        }
+        p:first-child {
+            border-right: 1px solid #eee;
+        }
+    }
+
+    .div1 {
+        height: 90px;
+        background: #f7f7f7;
+    }
+
+    .p3 {
+        padding-left: 30px;
+        margin-top: 50px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #999;
+    }
+
+    .juan {
+        li {
+            width: 690px;
+            height: 200px;
+            margin: 0 auto 20px;
+            background: url(../../assets/juan.png) no-repeat;
+            background-size: 100%;
+            .left {
+                width: 470px;
+                height: 200px;
+                p {
+                    font-size: 24px;
+                    color: #666;
+                    text-align: center;
+                    margin-bottom: 14px;
+                }
+                .num {
+                    font-size: 70px;
+                    color: #6492fd;
+                    margin: 20px 0 15px;
+                    font {
+                        font-size: 32px;
+                    }
+                }
+            }
+            .right {
+                text-align: center;
+                line-height: 200px;
+                font-size: 34px;
+                color: #fff;
+            }
+          .right.disabled{
+            color: #ccc;
+            text-decoration: line-through;
+          }
+        }
+    }
+
+    .bankModal{
+        width:100%;
+        height:100%;
+        background:rgba(0,0,0,.7);
+        position:fixed;
+        top:0;
+        left:0;
+        display:none;
+        .body{
+            width:90%;
+            height:560px;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            margin:auto;
+            padding: 50px;
+            background: #fff;
+            border-radius: 20px;
+            .mint-cell-wrapper{
+                font-size:32px;
+                line-height:80px;
+                height:85px;
+            }
+            .mint-cell-title{
+                width:200px;
+            }
+            .mintui{
+                font-size:32px;
+            }
+        }
+        .btn{
+            text-align:center;
+            button{
+                font-size: 40px;
+                width: 150px;
+                height: 70px;
+                line-height: 70px;
+                margin:30px 40px;
+            }
+        }
+
+    }
+    .bankModal.active{
+        display:block;
+    }
+
+}

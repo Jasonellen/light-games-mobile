@@ -1,0 +1,82 @@
+.radio {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #fff;
+    border: 2px solid #a0a0a0;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 12px;
+    input {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+}
+
+.select {
+    background: url(../../assets/selected.svg) no-repeat center center, #145fdc;
+    background-size: 30px 30px;
+}
+
+.addressList {
+    margin-top: 30px;
+    li {
+        background: #fff;
+        padding: 0 30px;
+        margin-bottom: 20px;
+        p {
+            font-size: 30px;
+            color: #333;
+            line-height: 52px;
+        }
+        div,
+        label {
+            font-size: 26px;
+            color: #999;
+            line-height: 70px;
+        }
+        .content {
+            border-bottom: 1px solid #d2d2d2;
+        }
+        .nameBox {
+            padding-top: 20px;
+            margin-bottom: 10px;
+        }
+        .bottom {
+            height: 70px;
+            .edit {
+                padding-left: 40px;
+                background: url(../../assets/bianji.svg) no-repeat left center;
+                background-size: 33px 34px;
+            }
+            .delete {
+                padding-left: 40px;
+                background: url(../../assets/shanchu.svg) no-repeat left center;
+                background-size: 33px 34px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.add {
+    width: 100%;
+    height: 98px;
+    background: #145fdc;
+    font-size: 30px;
+    color: #fffefe;
+    text-align: center;
+    line-height: 98px;
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}

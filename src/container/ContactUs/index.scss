@@ -1,0 +1,65 @@
+.bg-ccc {
+    background: #f7f7f7;
+    height: 40px;
+    width: 100%;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-102 {
+    margin-top: 102px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mb-17 {
+    margin-bottom: 17px!important;
+}
+
+.weixinBox {
+    img {
+        width: 287px;
+        height: 287px;
+        display: block;
+        margin: 0 auto;
+    }
+    P {
+        font-size: 30px;
+        color: #666;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    i {
+        display: block;
+        width: 45px;
+        height: 37px;
+        background: url(../../assets/weixin-cc.svg) no-repeat;
+        background-size: 100%;
+        margin: 0 auto
+    }
+}
+
+.mailbox {
+    height: 97px;
+    width: 559px;
+    border: 1px solid #d2d2d2;
+    margin: 90px auto 22px;
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    line-height: 97px;
+}
+
+.copy {
+    width: 132px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #d2d2d2;
+    font-size: 26px;
+    color: #666;
+}

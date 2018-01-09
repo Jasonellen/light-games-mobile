@@ -1,0 +1,252 @@
+@import "./lib/mintui.scss";
+
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+body{
+	font-size: 12px;
+	font-family:'Microsoft YaHei','Helvetica','Simsun';
+	overflow-x: hidden;
+	background: #f7f7f8;
+	color: #383E43;
+}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,
+canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,
+fieldset,figcaption,
+figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,
+iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,
+p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,
+table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,
+video,input,textarea{
+	margin:0;
+	padding:0;
+	border:0;
+    vertical-align:baseline;
+    word-wrap:break-word;
+    background: transparent;
+  box-sizing: border-box;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+button,input,select,textarea{
+	outline:none;
+	border: none;
+	background: none;
+}
+textarea{
+	resize:none;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+li,ol,ul{list-style:none;}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+b,strong{font-weight:700}
+i,em{font-style: normal;}
+img{
+
+    vertical-align:middle;
+    border:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 100%;
+	line-height: 100%;
+}
+html,body,#app{
+	width: 100%;
+	height: 100%;
+}
+p{
+	font-size: 100%;
+	line-height: 100%;
+}
+a{ color:#383E43;
+   text-decoration:none !important;
+   outline: none;
+}
+a:focus {outline: 0;}
+a:active{border: none;}
+
+
+/*清浮动*/
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+.clearfix{
+	zoom:1;
+}
+
+.fr{float:right!important}
+.fl{float:left!important}
+
+.box {
+    display: -moz-box;
+    /*Firefox*/
+    display: -webkit-box;
+    /*Safari,Opera,Chrome*/
+    display: box;
+}
+
+.item {
+    -moz-box-flex: 1.0;
+    /*Firefox*/
+    -webkit-box-flex: 1.0;
+    /*Safari,Opera,Chrome*/
+    box-flex: 1.0;
+    /*    width: 70%;*/
+}
+
+
+.pd-head{
+  padding-top: 88px;
+}
+
+//用户提示没有登录 不是会员
+
+.game-tips{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  .vip-tips-icon{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    background: url("../assets/huiyuan.svg") no-repeat;
+    background-size: 130px 130px;
+  }
+  .user-tips-icon{
+    background: url("../assets/weidenglu.svg") no-repeat;
+    background-size: 130px 130px;
+  }
+  .text{
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+
+
+.c66{
+  color: #666 !important;
+}
+.mint-tab-item-icon{
+  width:48px;
+  height:48px;
+}
+.mint-tab-item-label{
+  font-size:24px;
+}
+
+
+.city-picker-container{
+  .wrapper{
+    font-size: 34px !important;
+    .head{
+        height:auto !important;
+        line-height:2.5 !important;
+
+    }
+    .tab{
+        height:auto !important;
+        span{
+            padding:16px !important;
+            line-height:auto !important;
+        }
+
+    }
+    .tab-con{
+        padding-top: 65px !important;
+    }
+    .province, .city, .area{
+        padding-left:20px !important;
+        span{
+            line-height:1.5 !important;
+        }
+    }
+  }
+}
+
+
+
+
+.mint-msgbox-wrapper{
+    .mint-msgbox{
+      border-radius:10px;
+        .mint-msgbox-content{
+            padding: 20px 40px 30px;
+            min-height: 72px;
+            .mint-msgbox-message{
+              line-height: 72px;
+              font-size:34px;
+              color: #1263e9;
+            }
+            .mint-msgbox-input{
+              input{
+                height: 70px;
+                text-align:center;
+                line-height: 70px;
+                font-size: 35px;
+              }
+            }
+        }
+        .mint-msgbox-btns{
+            height: 80px;
+            line-height: 80px;
+            .mint-msgbox-btn{
+                font-size: 28px;
+                line-height: 80px;
+            }
+            .mint-msgbox-confirm{
+              color: #1263e9;
+            }
+        }
+    }
+
+  }
+
+
+//回复评论
+
+.goCommen {
+  height: 98px;
+  background: #fff;
+  border-top: 1px solid #bfbfbf;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 40;
+  span {
+    font-size: 24px;
+    color: #999;
+    height: 100%;
+    line-height: 98px;
+  }
+  .s1 {
+    background: url(../assets/pinglun3.svg) no-repeat left center;
+    background-size: 32px 32px;
+    padding-left: 48px;
+    margin-left: 34px;
+  }
+  .s2 {
+    background: url(../assets/pinglun.svg) no-repeat left center;
+    background-size: 35px 33px;
+    padding-left: 43px;
+    font-size: 30px;
+    margin-right: 34px;
+  }
+}
+
+
+//物流详情
+.wuliu-text-mbox{
+  line-height: 40px;
+  font-size: 30px;
+  line-height: 60px;
+}

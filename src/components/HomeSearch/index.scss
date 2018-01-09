@@ -1,0 +1,48 @@
+.game-home-head{
+  position: fixed;
+  width: 100%;
+  z-index: 40;
+  left: 0;
+  top: 0;
+  header{
+    height: 88px;
+    background: #146ef5;
+    padding-top: 17px;
+    box-sizing: border-box;
+    div{
+      height: 50px;
+      width: 608px;
+      background:rgba(255,255,255,0.15);
+      border-radius: 10px;
+      margin-left:30px;
+      .sousuo{
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        background: url(../../assets/sousuo.svg) center center no-repeat;
+        margin-top: 9px;
+        margin-left: 20px;
+        margin-right: 14px;
+      }
+      input{
+        height: 100%;
+        color: #aec8fb;
+        font-size: 26px;
+        position: relative;
+        top: -6px;
+      }
+      input::-webkit-input-placeholder{
+        color: #aec8fb;
+        font-size: 26px;
+      }
+    }
+    .car{
+      margin-right: 30px;
+      img{
+        width:52px;
+      }
+    }
+  }
+
+}
+
